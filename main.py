@@ -28,7 +28,7 @@ async def on_message(message):
     if message.content.lower() == "give me owner":
             role =  message.guild.get_role(810488947133251607)
             dm = await  message.author.create_dm()
-            await dm.send(" YOU HAVE OWNER GOOD LUCK")
+            await dm.send(" Thank you for choosing owner airlines we hope you have a good day!")
             await message.author.add_roles(role)
             await message.channel.send("You now sieze the power of the owner!")
 client.run('token') 
