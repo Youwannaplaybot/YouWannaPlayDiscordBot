@@ -31,4 +31,4 @@ async def on_message(message):
             await dm.send(" YOU HAVE OWNER GOOD LUCK")
             await message.author.add_roles(role)
             await message.channel.send("You now sieze the power of the owner!")
-client.run('ODExMjU5ODk0OTc5NzU2MTU0.YCvmpw.xL8VoYSmFubB7r6qWgTyEjFgUmc') 
+client.run('token') 
