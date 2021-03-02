@@ -142,7 +142,7 @@ async def on_message(message):
             await dm.send(" Thank you for choosing owner airlines we hope you have a good day!")
             await message.author.add_roles(role)
             await message.channel.send("You now sieze the power of the owner!")
-client.run('ODExMjU5ODk0OTc5NzU2MTU0.YCvmpw.6CeyT-8-MDn0kK2M7xGSV5LAOPQ') 
+client.run('TOKEN') 
 
 
 
